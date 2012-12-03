@@ -1,0 +1,43 @@
+PLEASE NOTE
+===========
+The classes used are listed below ( compilation should be in the order)
+
+1.The files marked (*) are executable class files
+2.The user is requested to compile all files atleast once and then execute the     appropriate driver files
+===============================================================================
+java files :
+===============================================================================
+1.TaskInfo 
+2.Pso
+3.Pso_driver(*)
+4.VariableInertiaPso
+5.VIPso_driver(*)
+6.RandomPso
+7.Rpso_driver(*)
+8.MultiThreadPso
+9.MtPso_driver(*)
+10.ParallelPso_Client
+11.ParallelPso_Server
+12.ParallelPso_driver(*)
+13.OrthogonalPso
+14.OrthogonalPso_driver(*)
+15.ParallelOrthogonalPso
+16.ParallelOrthogonalPso_driver(*)
+17.ModifiedNewPso
+18.MN_Pso_driver(*)
+19.SimulatedAnnealingPso
+20.SimulatedAnnealingPso_driver(*)
+================================================================================
+Text files
+================================================================================
+1.Basic_data
+		contains integers in the order
+			no of processors
+			no of tasks
+			no of particles
+			maximum no of iterations
+			set size(only for random pso)
+2.Static_input
+		contains three fields
+			task_name arrival_time execution_time
+			
